@@ -8,7 +8,7 @@ class SimpleHTTPRequestHandler(BaseHTTPRequestHandler):
         self.wfile.write(b"Hello, World!")
 
 def run_server():
-    host = 'localhost'
+    host = '0.0.0.0'
     port = 8000
 
     server_address = (host, port)
